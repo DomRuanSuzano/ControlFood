@@ -12,18 +12,6 @@ header {
     height: 3rem;
 }
 
-h1{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem;
-    border: .1rem solid black;
-    border-radius: 5rem 0.5rem 5rem 0.5rem;
-    margin-top: 10rem;
-    font-size: 5rem;
-}
-
 .buscar{
     position: relative;
     display: flex;
