@@ -8,22 +8,17 @@ header {
     align-items: center;
 }
 
-main{ height: 100%;
-
+main{
+    height: 100%;
     width: 100%;
-
 }
 
 
 ul {
     flex-direction: column;
-
     display: flex;
-
     justify-content: flex-start;
-
     align-items: center;
-
     height: 100%;
 }
 
@@ -33,22 +28,17 @@ li{
 
 a {
     display: flex;
-
     justify-content: center;
-
     border: 1px solid black;
-
     border-radius: 5rem;
-
     padding: 1rem;
-
     font-size: 1.5rem;
-
-
 } 
 
-img {height: 2.5rem;
-
+img {
+    height: 2.5rem;
     width: 2.5rem;
-
+}
+a img {
+    top: 1rem;
 }
