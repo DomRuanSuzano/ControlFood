@@ -3,19 +3,37 @@ html,body {
     width: 100%;
 }
 
-
-header {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 3rem;
+div {
+    width: 100%;
 }
+
+header{
+    display: flex;
+
+    justify-content: center;
+}
+
+.volta {
+
+    height: 2.5rem;
+
+    width: 2.5rem;
+
+    justify-content: flex-start;
+
+    position: absolute;
+
+    top: 60px;
+
+    left: 0;
+
+}
+
 
 .buscar{
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     font-size: 3rem;
     margin-top: 2rem;
@@ -23,14 +41,8 @@ header {
     padding-bottom: .5rem;
 }
 
-.volta {
-    padding: 2rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 7rem;
-    height: 7rem;
-}
+
+
 
 .icone{
     width: 2rem;
@@ -66,4 +78,7 @@ h2 a{
     padding: .5rem 1rem;
     text-align: center;
     border-radius: 1rem 1rem 1rem 1rem;
+    
 }
+
+
