@@ -1,0 +1,67 @@
+h1 {
+
+    display: inline;
+
+    padding: 2.5rem;
+
+    border: 1px solid black;
+
+    border-radius: 5rem 0.5rem 5rem 0.5rem;
+
+    margin-top: 2rem;
+
+    font-size: 5rem;
+
+    justify-content: center;
+
+}
+
+html,body {
+
+    height: 100%;
+
+    width: 100%;
+
+}
+
+header {
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+img {
+
+    height: 5rem;
+
+    width: 5rem;
+
+    justify-content: flex-start;
+
+    position: absolute;
+
+    top: 78px;
+
+    left: 0;
+
+}
+
+h2 {
+
+    display: block;
+
+    padding: 1.5rem;
+
+    border: 1px solid black;
+
+    border-radius: 2.5rem 2.5rem 0rem 0rem;
+
+    margin-top: 2rem;
+
+    font-size: 3rem;
+
+    justify-content: center;
+
+}
