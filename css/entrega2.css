@@ -62,10 +62,45 @@ h2 {
 
     font-size: 3rem;
 
-    justify-content: center;
-
 }
 
 ul {
-    list-style: disc;
+    
+    list-style-type: disc;
+
+    padding-left: 40px;
+}
+
+.concluido {
+
+    border:0;
+
+    display: flex;
+
+    justify-content: center;
+}
+
+.concluido a {
+    display: flex;
+
+    justify-content: center;
+
+    padding: 1.5rem;
+
+    border: 1px solid black;
+
+    border-radius: 2.5rem 2.5rem 0rem 0rem;
+
+    margin-top: 2rem;
+
+    width: 50%;
+}
+
+main {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
 }
