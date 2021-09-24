@@ -2,7 +2,7 @@ h1 {
 
     display: inline;
 
-    padding: 2.5rem;
+    padding: 1.5rem;
 
     border: 1px solid black;
 
@@ -10,10 +10,11 @@ h1 {
 
     margin-top: 2rem;
 
-    font-size: 5rem;
+    font-size: 2rem;
 
     justify-content: center;
 
+    font-weight: bold;
 }
 
 html,body {
@@ -34,15 +35,15 @@ header {
 
 img {
 
-    height: 5rem;
+    height: 2.5rem;
 
-    width: 5rem;
+    width: 2.5rem;
 
     justify-content: flex-start;
 
     position: absolute;
 
-    top: 78px;
+    top: 60px;
 
     left: 0;
 
@@ -60,10 +61,19 @@ h2 {
 
     margin-top: 2rem;
 
-    font-size: 3rem;
+    font-size: 1.5rem;
+
+    font-weight: bold;
+
+    margin-left: 15px;
+
+    margin-right: 15px;
 
 }
 
+p {
+    padding-left: 40px;
+}
 ul {
     
     list-style-type: disc;
@@ -73,11 +83,12 @@ ul {
 
 .concluido {
 
-    border:0;
+    border: 0;
 
     display: flex;
 
     justify-content: center;
+
 }
 
 .concluido a {
@@ -89,7 +100,7 @@ ul {
 
     border: 1px solid black;
 
-    border-radius: 2.5rem 2.5rem 0rem 0rem;
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
 
     margin-top: 2rem;
 
@@ -102,5 +113,7 @@ main {
     flex-direction: column;
 
     justify-content: space-between;
+
+    height: 100%;
 
 }
