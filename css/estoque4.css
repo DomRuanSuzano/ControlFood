@@ -1,0 +1,19 @@
+header{
+    display: flex;
+
+    justify-content: center;
+}
+
+img {
+    height: 2.5rem;
+
+    width: 2.5rem;
+}
+
+main {
+    justify-content: space-between;
+
+    display: flex;
+
+    flex-direction: column;
+}
