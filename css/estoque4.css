@@ -4,11 +4,6 @@ header{
     justify-content: center;
 }
 
-img {
-    height: 2.5rem;
-
-    width: 2.5rem;
-}
 
 main {
     justify-content: space-between;
@@ -16,4 +11,14 @@ main {
     display: flex;
 
     flex-direction: column;
+
+    height: 50%;
+
+    align-items: center;
 }
+
+.data {
+    position: relative;
+    top: -2rem;
+}
+

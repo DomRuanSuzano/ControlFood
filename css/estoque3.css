@@ -1,10 +1,6 @@
-html,body {
-    height: 100%;
-    width: 100%;
-}
 
 div {
-    width: 100%;
+    width: 80%;
 }
 
 header{
@@ -14,12 +10,10 @@ header{
 }
 
 
-
-
 .buscar{
     position: relative;
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
     font-size: 3rem;
     margin-top: 2rem;
