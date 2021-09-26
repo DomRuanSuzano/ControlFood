@@ -9,6 +9,8 @@ h3{
 
     margin: 2rem;
 
+    justify-content: center;
+
 }
 
 input[type="number"] {
@@ -45,11 +47,29 @@ p{
     border-radius: 3rem .5rem 3rem .5rem;
 
     margin: 2rem;
+
+    width: 80%;
+
+    align-items: center;
 }
 
-body{
-    height: 100%;
+.unidades {
+    display: flex;
 
-    width: 100%;
+    justify-content: center;
+
+    padding: 1rem;
+
+    border: 1px solid black;
+
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+
+    margin-top: 2rem;
+
+    font-size: 1.2rem;
+
+    align-items: center;
 }
+
+
 
