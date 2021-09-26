@@ -54,3 +54,11 @@ li {
     border-radius: 5rem 0.5rem 5rem 0.5rem;
     padding: 1.5rem;
 }
+
+img.voltar {
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    top: 0;
+    left: 0;
+}

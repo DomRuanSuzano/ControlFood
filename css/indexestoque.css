@@ -21,7 +21,7 @@ li{
     padding-top: 5rem;
 }
 
-a {
+a.icones {
     display: flex;
 
     justify-content: center;
@@ -36,7 +36,3 @@ a {
 
 
 } 
-
-
-
-
