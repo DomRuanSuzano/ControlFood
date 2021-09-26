@@ -1,6 +1,6 @@
 h2 {
     display: block;
-    padding: 1rem;
+    padding: 1rem; 
     border: 1px solid black;
     border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
     margin-top: 2rem;
@@ -14,7 +14,7 @@ h2 {
 
 ul {
     
-    padding: 50px;
+    padding: 0.5rem;
 
 }
 
@@ -40,6 +40,11 @@ main{
     padding: 1rem;
     border: 1px solid black;
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     width: 100%;
+}
+
+.texto {
+    display: flex;
+    margin: 1rem;
 }
