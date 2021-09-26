@@ -1,20 +1,8 @@
-h3{
-    border: .1rem solid black;
-
-    border-radius: 3rem .5rem 3rem .5rem;
-
+main{
     display: flex;
-
     flex-direction: column;
-
-    justify-content: center;
-
-    margin: 2rem;
-
+    justify-content: space-between;
     align-items: center;
-
-    padding: .5rem;
-
 }
 
 input[type="number"] {
@@ -57,7 +45,7 @@ p{
     align-items: center;
 }
 
-.unidades {
+h3 {
     display: flex;
 
     justify-content: center;
@@ -89,7 +77,22 @@ p{
 
 
 }
+h2{
+    position: relative;
 
+    top: .5rem;
 
+    font-size: 1rem;
 
+    font-weight: bold;
+}
 
+.check{
+    position: relative;
+    top: 0.5rem;
+}
+
+.unidade{
+    position: relative;
+    top: -.5rem;
+}
