@@ -11,6 +11,8 @@ h3{
 
     justify-content: center;
 
+    padding: .5rem;
+
 }
 
 input[type="number"] {
@@ -40,7 +42,7 @@ p{
 
     border: .1rem solid black;
 
-    justify-content: center;
+    justify-content:center;
 
     display: flex;
 
@@ -69,7 +71,23 @@ p{
     font-size: 1.2rem;
 
     align-items: center;
+
+    
 }
+
+.check{
+
+    justify-content: flex-end;
+
+    align-items: flex-start;
+
+    width: 2rem;
+
+    height: 2rem;
+
+
+}
+
 
 
 
