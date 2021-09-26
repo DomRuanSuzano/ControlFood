@@ -1,0 +1,55 @@
+h3{
+    border: .1rem solid black;
+
+    border-radius: 3rem .5rem 3rem .5rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin: 2rem;
+
+}
+
+input[type="number"] {
+    align-items: center;
+    font-size: .5rem;
+    margin: .5rem;
+    padding: .5rem;
+
+}
+
+input[type = "date"]{
+
+    align-items: center;
+
+    font-size: .9rem;
+
+    margin: .7rem;
+
+    padding: .9rem;
+
+    
+}
+
+p{
+
+    font-size: 1rem;
+
+    border: .1rem solid black;
+
+    justify-content: center;
+
+    display: flex;
+
+    border-radius: 3rem .5rem 3rem .5rem;
+
+    margin: 2rem;
+}
+
+body{
+    height: 100%;
+
+    width: 100%;
+}
+
