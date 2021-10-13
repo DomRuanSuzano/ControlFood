@@ -13,8 +13,11 @@ h2 {
 }
 
 ul {
-    
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    width: 100%;
 
 }
 
@@ -24,7 +27,7 @@ main{
     justify-content: space-between;
     align-items: center;
     padding-top: 0.5rem;
-    height: 80%;
+    height: 70%;
 }
 
 .add {
@@ -43,4 +46,20 @@ main{
     margin-top: 1rem;
     width: 100%;
 }
+li {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 50%;
+}
 
+li a {
+    position: absolute;
+    right: -2.5rem;
+}
+
+div {
+    border: 1px solid black;
+}
