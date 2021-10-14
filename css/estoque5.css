@@ -10,80 +10,47 @@ input[type="number"] {
     font-size: .5rem;
     margin: .5rem;
     padding: .5rem;
-
 }
 
 input[type = "date"]{
-
     align-items: center;
-
     font-size: .9rem;
-
     margin: .7rem;
-
     padding: .9rem;
-
-    
 }
 
-p{
-
+div{
     font-size: 1rem;
-
     border: .1rem solid black;
-
     justify-content:center;
-
     display: flex;
-
     border-radius: 3rem .5rem 3rem .5rem;
-
     margin: 1rem;
-
     width: 80%;
-
     align-items: center;
 }
 
 h3 {
     display: flex;
-
     justify-content: center;
-
     padding: 1rem;
-
     border: 1px solid black;
-
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
-
     margin-top: 2rem;
-
     font-size: 1.2rem;
-
     align-items: center;
-
-    
 }
 
 .check{
-
     justify-content: flex-end;
-
     align-items: flex-start;
-
     width: 2rem;
-
     height: 2rem;
-
-
 }
 h2{
     position: relative;
-
     top: .5rem;
-
     font-size: 1rem;
-
     font-weight: bold;
 }
 
@@ -95,4 +62,16 @@ h2{
 .unidade{
     position: relative;
     top: -.5rem;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    border: 0;
+}
+
+.vertical{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
 }
