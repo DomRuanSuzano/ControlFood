@@ -1,50 +1,67 @@
 main {
     justify-content: space-around;
-
     display: flex;
-
     flex-direction: column;
-
     height: 80%;
-
     align-items: center;
 }
 
 h3{
     display: flex;
-
     justify-content: center;
-
     padding: 1rem;
-
     border: 1px solid black;
-
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
-
     margin-top: 2rem;
-
     font-size: 1.2rem;
-
     align-items: center;
-
 }
 
 h2{
     border: .1rem solid black;
-
     border-radius: 3rem .5rem 3rem .5rem;
-    
     justify-content: center;
-
     display: flex;
-
     align-items: center;
-
     margin: 1rem;
-
     width: 60%;
 }
 
 .ultimo{
     height: 15%;
+}
+
+.info{
+    font-size: 2.5rem;
+    display: flex;
+    width: 45%;
+    padding: 0rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    border-radius: 5rem 0rem 0rem 0rem;
+}
+header{
+    margin-left: 2rem;
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.caixa{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+}
+div{
+    display: flex;
+    align-items: center;
+}
+.ovos{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0rem 0rem 5rem 0rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    border: 1px solid black;
 }
