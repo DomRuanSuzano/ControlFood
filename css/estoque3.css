@@ -8,19 +8,14 @@ h2 {
     font-weight: bold;
     margin-left: 15px;
     margin-right: 15px;
-    
-
 }
-
 ul {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 40px;
     width: 100%;
-
 }
-
 main{
     display: flex;
     flex-direction: column;
@@ -29,14 +24,12 @@ main{
     padding-top: 0.5rem;
     height: 70%;
 }
-
 .add {
     border: 0;
     display: flex;
     justify-content: center;
     width: 80%;
 }
-
 .add a {
     display: flex;
     justify-content: center;
@@ -53,18 +46,26 @@ li {
     align-items: center;
     justify-content: space-between;
     border: 1px solid black;
+    border-radius: 5rem 0.5rem 5rem 0.5rem;
     width: 60%;
 }
-
 li a {
     position: absolute;
     right: -2.5rem;
 }
-
 div {
     display: flex;
     flex-direction: row;
     align-items: center;
     border: 1px solid black;
+    border-radius: 5rem 0.5rem 5rem 0.5rem;
     padding: 0.7rem;
+    width: 20%;
+    justify-content: center;
+}
+li img{
+    margin-left: 1.25rem;
+}
+input{
+    margin-top: -1.25rem;
 }
