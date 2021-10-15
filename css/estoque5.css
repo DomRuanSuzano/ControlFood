@@ -67,11 +67,23 @@ h2{
 .horizontal{
     display: flex;
     flex-direction: row;
-    border: 0;
 }
 
 .vertical{
     width: 90%;
     display: flex;
     flex-direction: column;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+.ovinho{
+    margin-left: 1.5rem;
+    border-right: 1px dashed black;
+}
+.linha{
+    border-bottom: 1px solid black;
+    width: 100%;
 }
