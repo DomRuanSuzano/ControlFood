@@ -1,6 +1,7 @@
 table{
     table-layout: auto;
     border: 1px solid black;
+    width: 50%;
 }
 
 th,td{
@@ -28,21 +29,14 @@ main{
 
 .marmita  {
     display: flex;
-
     justify-content: center;
-
     padding: 1rem;
-
     border: 1px solid black;
-
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
-
     margin-top: 2rem;
-
     font-size: 1.2rem;
-
     align-items: center;
-
+    width: 50%;
 }
 
 span{
