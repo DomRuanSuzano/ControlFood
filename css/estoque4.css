@@ -2,7 +2,7 @@ main {
     justify-content: space-around;
     display: flex;
     flex-direction: column;
-    height: 80%;
+    height: 75%;
     align-items: center;
 }
 
@@ -32,36 +32,63 @@ h2{
 }
 
 .info{
-    font-size: 2.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.65rem;
     display: flex;
-    width: 45%;
-    padding: 0rem;
-    padding-top: 2rem;
-    padding-left: 1rem;
-    margin-left: 1rem;
-    border-radius: 5rem 0rem 0rem 0rem;
+    padding: 0.5rem;
 }
 header{
-    margin-left: 2rem;
+    margin-left: 3rem;
     width: 90%;
+    height: 25%;
     flex-direction: column;
     align-items: flex-start;
 }
-.caixa{
+
+h1{
+    flex-direction: row;
     display: flex;
-    width: 90%;
+    margin: 0ch;
+    padding: 0;
+    border: 0;
+    width: auto;
+    margin-left: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.caixa1{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5rem 0rem 0rem 0rem;
+}
+
+.caixa4{
+    display: flex;
     justify-content: space-around;
     align-items: center;
+    border: 1px solid black;
+    border-radius: 0rem 0rem 5rem 0rem;
+    margin-left: 0.05rem;
 }
 div{
     display: flex;
     align-items: center;
 }
 .ovos{
-    width: 5rem;
-    height: 5rem;
-    border-radius: 0rem 0rem 5rem 0rem;
-    padding-bottom: 2rem;
-    padding-right: 1rem;
-    border: 1px solid black;
+    width: 4rem;
+    height: 4rem;
+
+}
+.blaus{
+    width:100%;
+    height: 80%;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.blaus div{
+    width: 45%;
+    height: 50%;
 }
