@@ -1,12 +1,13 @@
 h2 {
     display: block;
     padding: 1.5rem;
-    border: 1px solid black;
+    border: 3px solid #F5BE60;
     border-radius: 2.5rem 2.5rem 0rem 0rem;
     margin-top: 2rem;
     font-size: 1.5rem;
     font-weight: bold;
     width: 70%;
+    background-color: #A7C6E8;
 }
 ul {
     list-style-type: disc;
@@ -16,16 +17,18 @@ ul {
     border: 0;
     display: flex;
     justify-content: center;
+    background-color: #F5D49D
 }
 
 .concluido a {
     display: flex;
     justify-content: center;
     padding: 1.5rem;
-    border: 1px solid black;
+    border: 3px solid #F5BE60;
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
     margin-top: 2rem;
     width: 50%;
+    background-color: #A7C6E8;
 }
 
 main {

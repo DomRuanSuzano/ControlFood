@@ -5,8 +5,9 @@ table{
 }
 
 th,td{
-    border: 1px solid black;
+    border: 1.5px solid #F5BE60;
     padding: 0.5rem;
+    background-color: #A7C6E8;
 }
 
 h1 {
@@ -31,16 +32,18 @@ main{
     display: flex;
     justify-content: center;
     padding: 1rem;
-    border: 1px solid black;
+    border: 3px solid #F5BE60;
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
     margin-top: 2rem;
     font-size: 1.2rem;
     align-items: center;
     width: 50%;
+    background-color: #A7C6E8;
 }
 
 span{
     border: 1px solid black;
     border-radius: 50%;
     padding: 0.5rem;
+    background-color: #608DBF;
 }

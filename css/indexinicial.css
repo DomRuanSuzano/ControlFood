@@ -26,11 +26,11 @@ li{
 a {
     display: flex;
     justify-content: center;
-    border: 3px solid #D19B43;
+    border: 3px solid #F5BE60;
     border-radius: 5rem;
     padding: 1rem;
     font-size: 1.5rem;
-    background-color: #FFDBA1;
+    background-color: #A7C6E8;
 } 
 
 img {
