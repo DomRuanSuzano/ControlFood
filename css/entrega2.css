@@ -32,10 +32,12 @@ ul {
 }
 li{
     font-family: 'PT Serif', serif;
+    font-size: .9rem;
 }
 p{
     width: 75%;
     font-family: 'PT Serif', serif;
+    font-size: .9rem;
 }
 main {
     display: flex;
