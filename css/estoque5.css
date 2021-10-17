@@ -29,7 +29,8 @@ h2, div{
     margin: 1rem;
     width: 70%;
     align-items: center;
-    background-color: #A7C6E8
+    background-color: #A7C6E8;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2{
@@ -70,6 +71,7 @@ h2{
 .unidade{
     position: relative;
     top: -.5rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .horizontal{

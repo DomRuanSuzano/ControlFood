@@ -1,19 +1,13 @@
-main{ height: 100%;
-
+main{ 
+    height: 100%;
     width: 100%;
-
 }
-
 
 ul {
     flex-direction: column;
-
     display: flex;
-
     justify-content: flex-start;
-
     align-items: center;
-
     height: 100%;
 }
 
@@ -24,16 +18,11 @@ li{
 
 a.icones {
     display: flex;
-
     justify-content: center;
-
     border: 3px solid #F5BE60;
-
     border-radius: 5rem;
-
     padding: 1rem;
-
     font-size: 1.5rem;
-
     background-color: #A7C6E8;
+    font-family: 'Open Sans', sans-serif;
 } 

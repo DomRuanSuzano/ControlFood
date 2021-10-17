@@ -8,18 +8,18 @@ h2 {
     font-weight: bold;
     width: 70%;
     background-color: #A7C6E8;
+    font-family: 'Open Sans', sans-serif;
 }
 ul {
     list-style-type: disc;
+    width: 75%;
 }
-
 .concluido {
     border: 0;
     display: flex;
     justify-content: center;
     background-color: #F5D49D
 }
-
 .concluido a {
     display: flex;
     justify-content: center;
@@ -30,7 +30,13 @@ ul {
     width: 50%;
     background-color: #A7C6E8;
 }
-
+li{
+    font-family: 'PT Serif', serif;
+}
+p{
+    width: 75%;
+    font-family: 'PT Serif', serif;
+}
 main {
     display: flex;
     flex-direction: column;

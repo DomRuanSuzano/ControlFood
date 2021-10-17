@@ -5,7 +5,9 @@ main {
     height: 75%;
     align-items: center;
 }
-
+h1{
+    background-color: #F5D49D;
+}
 h3{
     display: flex;
     justify-content: center;
@@ -16,6 +18,7 @@ h3{
     font-size: 1.2rem;
     align-items: center;
     background-color: #A7C6E8;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2{
@@ -28,10 +31,12 @@ h2{
     width: 70%;
     height: 10%;
     font-size: 1.25rem;
+    font-family: 'Open Sans', sans-serif;
 }
 p{
     margin-top: -6rem;
     font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
 }
 .info{
     position: absolute;
@@ -40,6 +45,7 @@ p{
     font-size: 1.7rem;
     display: flex;
     padding: 0.5rem;
+    background-color: #F5BE60;
 }
 header{
     margin-left: 3rem;
@@ -83,6 +89,7 @@ h1{
 div{
     display: flex;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
 }
 .ovos{
     width: 4rem;

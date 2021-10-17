@@ -6,7 +6,7 @@ a.icones {
     align-items: center;
     width: 55%;
     background-color: #A7C6E8;
-   
+    font-family: 'Open Sans', sans-serif;
 }
 li{ 
     display: flex;
@@ -17,46 +17,30 @@ li{
 }
 .mais{
     display: flex;
-
     justify-content: center;
-
     padding: 0.5rem;
-
     border: 3px solid #F5BE60;
-
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
-
     margin-top: 2rem;
-
     width: 70%;
-
     background-color: #A7C6E8;
 }
-
 ol {
     justify-content: space-between;
-
     display: flex;
-
     flex-direction: column;
-
     height: 30%;
-
     align-items: center;
-
     padding-top: 2.5rem;
 }
-
 main {
     height: 80%;
 }
-
 div {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
 time {
     display: flex;
     justify-content: center;
@@ -65,4 +49,5 @@ time {
     border-radius: 5rem;
     width: 15%;
     background-color: #A7C6E8;
+    font-family: 'Open Sans', sans-serif;
 }
