@@ -5,7 +5,7 @@ a.icones {
     justify-content: center;
     align-items: center;
     width: 55%;
-    background-color: #608DBF;
+    background-color: #A7C6E8;
     font-family: 'Open Sans', sans-serif;
 }
 li{ 
@@ -23,7 +23,7 @@ li{
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
     margin-top: 2rem;
     width: 70%;
-    background-color: #608DBF;
+    background-color: #A7C6E8;
 }
 ol {
     justify-content: space-between;
@@ -48,6 +48,6 @@ time {
     border: 3px solid #F5BE60;
     border-radius: 5rem;
     width: 15%;
-    background-color: #A7C6E8;
+    background-color: #D6D6D6;
     font-family: 'Open Sans', sans-serif;
 }
