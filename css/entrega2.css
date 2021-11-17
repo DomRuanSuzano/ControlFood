@@ -28,14 +28,16 @@ ul {
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
     margin-top: 2rem;
     width: 50%;
-    background-color: #A7C6E8;
+    background-color: #608DBF;
 }
 li{
     font-family: 'PT Serif', serif;
+    font-size: .9rem;
 }
 p{
     width: 75%;
     font-family: 'PT Serif', serif;
+    font-size: .9rem;
 }
 main {
     display: flex;

@@ -5,7 +5,7 @@ a.icones {
     justify-content: center;
     align-items: center;
     width: 55%;
-    background-color: #A7C6E8;
+    background-color: #608DBF;
     font-family: 'Open Sans', sans-serif;
     padding: 0rem;
 }
@@ -27,7 +27,7 @@ li{
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
     margin-top: 2rem;
     width: 70%;
-    background-color: #A7C6E8;
+    background-color: #608DBF;
 }
 ol {
     justify-content: space-between;
