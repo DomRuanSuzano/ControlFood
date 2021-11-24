@@ -29,7 +29,7 @@ h2, div{
     margin: 1rem;
     width: 70%;
     align-items: center;
-    background-color: #A7C6E8;
+    background-color: #D6D6D6;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -47,7 +47,7 @@ h3 {
     font-size: 1.2rem;
     align-items: center;
     width: 65%;
-    background-color: #608DBF
+    background-color: #A7C6E8
 }
 
 .check{

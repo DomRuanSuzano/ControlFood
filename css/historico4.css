@@ -7,7 +7,7 @@ table{
 th,td{
     border: 1.5px solid #F5BE60;
     padding: 0.5rem;
-    background-color: #A7C6E8;
+    background-color: #D6D6D6;
 }
 h1 {
     font-size: 1.5rem;
@@ -34,14 +34,14 @@ main{
     font-size: 1.2rem;
     align-items: center;
     width: 50%;
-    background-color: #A7C6E8;
+    background-color: #D6D6D6;
     text-align: center;
 }
 span{
     border: 1px solid black;
     border-radius: 50%;
     padding: 0.5rem;
-    background-color: #608DBF;
+    background-color: #A7C6E8;
     font-family: 'Open Sans', sans-serif;
 }
 p{

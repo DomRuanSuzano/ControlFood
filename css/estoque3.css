@@ -39,7 +39,7 @@ main{
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
     margin-top: 1rem;
     width: 100%;
-    background-color: #608DBF;
+    background-color: #A7C6E8;
 }
 li {
     position: relative;
@@ -50,7 +50,7 @@ li {
     border: 1px solid black;
     border-radius: 5rem 0.5rem 5rem 0.5rem;
     width: 60%;
-    background-color: #A7C6E8;
+    background-color: #D6D6D6;
     font-family: 'Open Sans', sans-serif;
 }
 li a {
@@ -75,5 +75,5 @@ p{
     font-family: 'Open Sans', sans-serif;
 }
 h2.buscar{
-    background-color: #A7C6E8;
+    background-color: #D6D6D6;
 }
