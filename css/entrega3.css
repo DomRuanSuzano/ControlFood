@@ -22,11 +22,11 @@ h2 {
 .adicionar a {
     display: flex;
     justify-content: center;
-    padding: 1.5rem;
-    border: 1px solid black;
+    padding: 1rem;
+    border: 3px solid #F5BE60;
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
-    margin-top: 2rem;
-    width: 50%;
+    margin-top: rem;
+    width: 100%;
     background-color: #A7C6E8;
     font-family: 'Open Sans', sans-serif;
 }
