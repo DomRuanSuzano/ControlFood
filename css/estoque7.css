@@ -1,15 +1,17 @@
 
 h2{
-    border: 3px solid #F5BE60;
+    border: 2px solid #F5BE60;
     border-radius: 5rem .5rem 5rem .5rem;
     display:flex;
     justify-content:center;
-    margin: 2rem;
-    width: 70%;
-    padding: 1rem 2rem 1rem 2rem;
+    margin-top: 3rem;
+    width: 60%;
+    padding: 1rem 1.5rem 1rem 1.5rem;
     align-items: center;
     background-color: #D6D6D6;
     font-family: 'Open Sans', sans-serif;
+
+
 }
 main{
     display:flex;
@@ -18,17 +20,14 @@ main{
     justify-content: space-between;
     width: 100%;
 }
-input[type="text"] {
+input[type="text"],[type="date"] {
     border: none;
     justify-content: right;
     border-radius: 5rem 0.5rem 5rem 0.5rem;
-    width: 40%;
+    width: 50%;
     font-size: .8rem;
 }
-input[type="date"] {
-    width: 40%;
-    border: none;
-}
+
 .add {
     border: 0;
     display: flex;

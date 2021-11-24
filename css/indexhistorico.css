@@ -1,9 +1,6 @@
-h1 {
-    font-size: 1.5rem;
-}
 
 .calendario {
-    top: 1rem;
+    top: 0.5rem;
     position: relative;
 }
 
@@ -11,6 +8,7 @@ h1 {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    
 }
 
 .lupa{
@@ -21,6 +19,8 @@ h1 {
 input{
     display: inline;
     margin: 0 1rem 0 1rem;
+    border: none;
+    border-radius: 5rem 0.5rem 5rem 0.5rem;
 }
 
 ul {
@@ -41,8 +41,9 @@ li {
     font-size: 1.5rem ;
     border: 3px solid #F5BE60;
     border-radius: 5rem 0.5rem 5rem 0.5rem;
-    padding: 1.75rem;
-    width: 50%;
+    padding: 1.0rem;
     background-color: #A7C6E8;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    width:  60%;
 }
