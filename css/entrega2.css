@@ -1,4 +1,4 @@
-h2 {
+div {
     display: block;
     padding: 1.5rem;
     border: 3px solid #F5BE60;
@@ -9,15 +9,20 @@ h2 {
     width: 70%;
     background-color: #D6D6D6;
     font-family: 'Open Sans', sans-serif;
+    
 }
 ul {
     list-style-type: disc;
     width: 75%;
 }
 .concluido {
-    border: 0;
-    display: flex;
-    justify-content: center;
+    display: block;
+    border-radius: 2.5rem 2.5rem 0rem 0rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
     background-color: #F5D49D
 }
 .concluido a {
@@ -26,13 +31,13 @@ ul {
     padding: 1.5rem;
     border: 3px solid #F5BE60;
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
-    margin-top: 2rem;
-    width: 50%;
     background-color: #A7C6E8;
 }
 li{
     font-family: 'PT Serif', serif;
     font-size: .9rem;
+    padding: 0.5rem;
+    padding-top: 0rem;
 }
 p{
     width: 75%;
@@ -45,4 +50,8 @@ main {
     justify-content: space-between;
     align-items: center;
     height: 70%;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
 }
