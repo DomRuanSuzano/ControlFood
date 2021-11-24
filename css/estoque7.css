@@ -1,6 +1,4 @@
-h1{
-    font-size: 1.5rem;
-}
+
 h2{
     border: 3px solid #F5BE60;
     border-radius: 5rem .5rem 5rem .5rem;
@@ -21,8 +19,15 @@ main{
     width: 100%;
 }
 input[type="text"] {
+    border: none;
     justify-content: right;
+    border-radius: 5rem 0.5rem 5rem 0.5rem;
+    width: 40%;
     font-size: .8rem;
+}
+input[type="date"] {
+    width: 40%;
+    border: none;
 }
 .add {
     border: 0;
