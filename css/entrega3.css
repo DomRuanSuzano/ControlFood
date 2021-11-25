@@ -1,12 +1,13 @@
 h2 {
     display: block;
     padding: 1rem;
-    border: 3.5px solid #F5BE60;
+    border: none;
     border-radius: 5rem 0rem 0rem 0rem;
-    margin-top: 2rem;
-    font-size: 1.5rem;
+    margin: 1.5rem 1.5rem 0rem 1.5rem ;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    width: 70%;
+    width: 55%;
     background-color: #D6D6D6;
     font-family: 'Open Sans', sans-serif;
 }
@@ -23,7 +24,7 @@ h2 {
     display: flex;
     justify-content: center;
     padding: 1rem;
-    border: 3.5px solid #F5BE60;
+    border: 3px solid #F5BE60;
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
     margin-top: rem;
     width: 100%;
@@ -40,11 +41,12 @@ main {
 }
 
 input {
-   width: 70%;
+   width: 60%;
    border-radius: 0rem 0rem 5rem 0rem;
-   border: 3.5px solid #F5BE60;
+   border: none;
    align-items: center;
-   font-size: .7rem;
-   margin-top: 0rem;
-   padding: 1rem;
+   font-size: .7rem; 
+   margin-top: 0.2rem;
+   padding: 0.4rem;
+   padding-top: 1.5rem;
 }

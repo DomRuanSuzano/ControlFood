@@ -21,7 +21,8 @@ input[type = "date"]{
     align-items: center;
     font-size: .9rem;
     margin: .7rem;
-    padding: .9rem;
+    margin-left: 1rem;
+    padding: 0rem 0rem 0.2rem 3rem;
 }
 
 h2, div{
@@ -38,7 +39,13 @@ h2, div{
 }
 
 h2{
-    padding: 0.5rem;
+    padding: 1rem;
+    width: 60%;
+
+}
+
+p {
+    padding-top: 0.4rem;
 
 }
 h3 {
@@ -102,5 +109,6 @@ h2{
 }
 .linha{
     border-bottom: 1px solid black;
+    padding-bottom: 10px;
     width: 100%;
 }

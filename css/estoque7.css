@@ -24,7 +24,9 @@ input[type="text"],[type="date"] {
     border: none;
     justify-content: right;
     border-radius: 1rem 0.05rem 1rem 0.05rem;
-    width: 50%;
+    margin-left: 1rem;
+    padding: 0rem 0rem 0.4rem 3rem;
+    width: 40%;
     font-size: .8rem;
 }
 
