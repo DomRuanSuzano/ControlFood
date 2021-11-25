@@ -8,12 +8,16 @@ main{
 
 input[type="number"] {
     align-items: center;
+    border-radius: 3rem .5rem 3rem .5rem;
+    border: none;
     font-size: .5rem;
     margin: .5rem;
     padding: .5rem;
 }
 
 input[type = "date"]{
+    border-radius: 3rem .5rem 3rem .5rem;
+    border: none;
     align-items: center;
     font-size: .9rem;
     margin: .7rem;

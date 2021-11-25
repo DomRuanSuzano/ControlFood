@@ -23,7 +23,7 @@ main{
 input[type="text"],[type="date"] {
     border: none;
     justify-content: right;
-    border-radius: 5rem 0.5rem 5rem 0.5rem;
+    border-radius: 1rem 0.05rem 1rem 0.05rem;
     width: 50%;
     font-size: .8rem;
 }
