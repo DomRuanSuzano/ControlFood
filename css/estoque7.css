@@ -43,7 +43,7 @@ input[type="text"],[type="date"] {
     display: flex;
     justify-content: center;
     padding: 1rem;
-    border: 3px solid #F5BE60;
+    border: 2px solid #F5BE60;
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
     margin-top: 1rem;
     width: 100%;

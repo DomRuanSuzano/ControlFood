@@ -1,7 +1,7 @@
 a.icones {
     display: flex;
     border: 3px solid #F5BE60;
-    border-radius: 5rem;
+    border-radius: 3rem 2rem 2rem 0rem;
     justify-content: center;
     align-items: center;
     width: 55%;
@@ -23,7 +23,7 @@ li{
     display: flex;
     justify-content: center;
     padding: 0.5rem;
-    border: 3px solid #F5BE60;
+    border: 2px solid #F5BE60;
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
     margin-top: 2rem;
     width: 70%;
@@ -55,8 +55,8 @@ time {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid #F5BE60;
-    border-radius: 5rem;
+    border: 2px solid #A7C6E8;
+    border-radius: 2rem 0rem 1rem 0rem;
     width: 15%;
     background-color: #D6D6D6;
     font-family: 'Open Sans', sans-serif;

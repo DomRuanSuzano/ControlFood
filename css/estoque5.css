@@ -27,7 +27,7 @@ input[type = "date"]{
 
 h2, div{
     font-size: 1rem;
-    border: 3px solid #F5BE60;
+    border: 2px solid #F5BE60;
     justify-content:center;
     display: flex;
     border-radius: 3rem .5rem 3rem .5rem;
