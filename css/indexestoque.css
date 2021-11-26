@@ -1,6 +1,7 @@
-main{ 
-    height: 100%;
-    width: 100%;
+
+html,body {
+    max-height: 100%;
+    overflow-y: hidden;
 }
 
 ul {
@@ -19,7 +20,7 @@ li{
 a.icones {
     display: flex;
     justify-content: center;
-    border: 3px solid #F5BE60;
+    border: 2px solid #F5BE60;
     border-radius: 5rem;
     padding: 1rem;
     font-size: 1.5rem;

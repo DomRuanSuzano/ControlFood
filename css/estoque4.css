@@ -6,24 +6,26 @@ main {
     align-items: center;
 }
 h1{
-    background-color: #F5D49D;
+    background-color: #F5BE60;
 }
 h3{
     display: flex;
     justify-content: center;
     padding: 1rem;
-    border: 3px solid #F5BE60;
+    border: 2px solid #F5BE60;
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
     margin-top: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     align-items: center;
     background-color: #A7C6E8;
     font-family: 'Open Sans', sans-serif;
+    width: 70%;
+
 }
 
 h2{
     background-color: #D6D6D6;
-    border: 3px solid #F5BE60;
+    border: 1.5px solid #F5BE60;
     border-radius: 3rem .5rem 3rem .5rem;
     justify-content: center;
     display: flex;
@@ -61,29 +63,45 @@ h1{
     margin: 0;
     padding: 0;
     border: 0;
-    margin-left: 1rem;
+    margin-top: 0.4rem;
+    font-size: 2rem;
+    width: 70%;
     justify-content:center;
     align-items: center;
+
 }
+
+
 .caixa1{
     position: relative;
-    border: 1px solid black;
-    border-radius: 5rem 0rem 0rem 0rem;
+    border: 2px solid #F5D49D;
+    border-radius: 10rem 0rem 0rem 0rem;
     background-color: #F5BE60;
     margin-left: -0.05rem;
+}
+
+.caixa2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F5D49D;
+    background-color: #F5BE60;
+    border-radius: 0rem 0rem 0rem 0rem;
 }
 .caixa3{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid #F5D49D;
+    background-color: #F5BE60;
+    border-radius: 0rem 0rem 0rem 0rem;
 }
 .caixa4{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid black;
-    border-radius: 0rem 0rem 5rem 0rem;
-    margin-left: 0.05rem;
+    border: 2px solid #F5D49D;
+    border-radius: 0rem 0rem 10rem 0rem;
     background-color: #F5BE60;
 }
 div{
@@ -92,16 +110,27 @@ div{
     font-family: 'Open Sans', sans-serif;
 }
 .ovos{
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
 }
-.blaus{
+.info{
+    font-size: 26px;
+}
+
+.ovos_fonte {
+    font-size: 26px;
+    padding-bottom: 6px;
+}
+
+.blaus{ 
     width:100%;
-    height: 80%;
+    height: 60%;
     flex-direction:row;
     flex-wrap:wrap;
+
 }
 .blaus div{
     width: 45%;
     height: 50%;
+
 }
