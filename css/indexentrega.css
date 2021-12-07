@@ -4,7 +4,7 @@ a.icones {
     border-radius: 3rem 2rem 2rem 0rem;
     justify-content: center;
     align-items: center;
-    width: 55%;
+    width: 45%;
     background-color: #A7C6E8;
     font-family: 'Open Sans', sans-serif;
     padding: 0rem;
@@ -15,9 +15,7 @@ li{
     height: 15%;
     font-size: 1.3rem;
     justify-content: center;
-    margin-top: 1.5rem;
-    
-    
+    margin-top: 1.5rem;    
 }
 .mais{
     display: flex;
@@ -35,9 +33,6 @@ ol {
     flex-direction: column;
     height: 85%;
     align-items: center;
-    
-    
-    
 }
 main {
     height: 100%;
@@ -62,4 +57,8 @@ time {
     font-family: 'Open Sans', sans-serif;
     padding: 1rem 0.5rem 1rem 0.5rem;
 
+}
+.status{
+    height: 2.25rem;   
+    width: 2.25rem;
 }
