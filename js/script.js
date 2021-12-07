@@ -12,12 +12,11 @@ window.addEventListener("DOMContentLoaded", function (event) {
     
     else if (page === "estoque5.html") {
 
+		document.querySelector('#atual').innerHTML = localStorage.getItem('qtd') + ' Unidades'
+
         // QuerySelector dos elementos
 		const txt = document.querySelector("#adiciona");
 		const send = document.querySelector(".unidade");
-        
-        // Iniciando o valor do input em 0
-		txt.value = 0;
 
         // Evento para enviar os valores para o localStorage
 		send.addEventListener("click", function (event) {
@@ -36,6 +35,10 @@ window.addEventListener("DOMContentLoaded", function (event) {
 		});
 	} 
     
+	else if (page === "estoque4.html") {
+		document.querySelector('#atual').innerHTML = localStorage.getItem('qtd') + ' Unidades'
+	}
+
     else {
         // Buscando a tag H2 para exibir o valor de local storage
 		let alterar = document.querySelector("#alterar");
@@ -49,7 +52,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
 // Função que usa o localStorage para ser executada apenas uma vez e não sobrescrever o localStorage quando re-acessada
 function loadLocal() {
 	if (localStorage.getItem("first") != "true") {
-		localStorage.setItem("qtd", "0");
+		localStorage.setItem("qtd", "48");
 		localStorage.setItem("first", "true");
 	}
 }
